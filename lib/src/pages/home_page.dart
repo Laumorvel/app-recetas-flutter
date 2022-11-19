@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
           appBar(context, _scaffoldKey),
           SliverList(
               delegate: SliverChildListDelegate([
-              Container(
+            Container(
               child: Text("Hola"),
             )
           ]))
