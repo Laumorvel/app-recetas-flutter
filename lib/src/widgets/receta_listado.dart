@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 Widget recetasListado() {
   return Column(
     children: <Widget>[
+      SizedBox(
+        height: 10.0,
+      ),
       GestureDetector(
           onTap: () {
             print('object');
@@ -14,6 +17,9 @@ Widget recetasListado() {
             width: 250.0,
             height: 290.0,
           )),
+      SizedBox(
+        height: 10.0,
+      ),
       textoReceta()
     ],
   );
