@@ -1,6 +1,7 @@
 import 'package:app_recetas/src/styles/styles.dart';
 import 'package:app_recetas/src/widgets/app_bar.dart';
 import 'package:app_recetas/src/widgets/menu_lateral.dart';
+import 'package:app_recetas/src/widgets/receta_listado.dart';
 import 'package:app_recetas/src/widgets/swiper_categorias.dart';
 import 'package:app_recetas/src/widgets/swiper_populares.dart';
 import 'package:app_recetas/src/widgets/titles.dart';
@@ -25,7 +26,9 @@ class HomePage extends StatelessWidget {
                 swiperPopulares(),
                // SizedBox(height: 30),
                 titles('Categorías'),
-                swiperCategorias()
+                swiperCategorias(),
+                titles('Recetas Populares'),
+                recetasListado()
               ],
             )
           ]))

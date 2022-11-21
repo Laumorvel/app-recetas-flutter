@@ -4,6 +4,6 @@ import 'package:flutter/material.dart';
 Widget titles(String texto) {
   return Container(
     alignment: AlignmentDirectional.topStart,
-    margin: EdgeInsets.only(left: 30.0, top: 20.0),
+    margin: EdgeInsets.only(left: 30.0, top: 20.0, bottom: 10.0),
     child: Text(texto, style: titlesStyle));
 }
